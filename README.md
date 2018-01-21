@@ -1,5 +1,5 @@
 ## MyNotes
-[GitHub Cheat Sheet](ms042087.github.com/GitHubCheatSheet.md)
+[GitHub Cheat Sheet](GitHubCheatSheet.md)
 
 ## Useful Websites
 ### Downloads
