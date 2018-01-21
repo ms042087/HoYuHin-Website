@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+# MyNotes
 
-You can use the [editor on GitHub](https://github.com/ms042087/ms042087.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Initialize a Git repository:**
+git init
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Checking status**
+git status
 
-### Markdown
+staged:Files are ready to be committed.
+unstaged:Files with changes that have not been prepared to be committed.
+untracked:Files aren't tracked by Git yet. This usually indicates a newly created file.
+deleted:File has been deleted and is waiting to be removed from Git.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Add a file to the Staging area to track**
+git add <filename>
+add all:You can also type git add -A . where the dot stands for the current directory, so everything in and beneath it is added. The -A ensures even file deletions are included.
+git reset:You can use git reset <filename> to remove a file or files from the staging area.
 
-```markdown
-Syntax highlighted code block
+**Commiting a file with a message **
+git commit -m “xxx”
 
-# Header 1
-## Header 2
-### Header 3
+**Adding all changes**
+git add ‘*.txt’
 
-- Bulleted
-- List
+**History**
+git log
+git log –summary
 
-1. Numbered
-2. List
+**Remote repositories**
+Git remote add origin <link>
 
-**Bold** and _Italic_ and `Code` text
+**Pushing remotely**
+Git push -u origin master //-u for remembering, next time can use git push
 
-[Link](url) and ![Image](src)
-```
+**Pulling remotely**
+Git pull origin master
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Difference in file of recent changes**
+Git diff HEAD
 
-### Jekyll Themes
+**Staged difference**
+Git add <file>
+Git diff –staged
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ms042087/ms042087.github.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Reset every changes after the last commit of certain file**
+Git checkout -- <file>
 
-### Support or Contact
+**Create a branch**
+Git branch <branchname>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Check branch**
+Git branch
+
+**Switching branches**
+Git checkout <branchname>
+
+**Create and switch at the same time**
+Git checkout -b <branchname>
+
+**Remove a file**
+Git rm <filename>
+
+**Remove whole file**
+Git rm -r <foldername>
+
+**After changes, go to master to merge, delete the branch**
+Git commit -m “xxx”
+Git checkout master
+Git merge <branchname>
+Git branch -d (-f)<branchname>
+Git push
+
+
+Copy resources from the others using **fork**
+**clone** to own pc
