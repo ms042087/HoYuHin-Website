@@ -1,31 +1,12 @@
-## To-Do List
-#### Due in two weeks
-- [x] **22/01** 3542 MergeSort
-- [ ] **25/01** 3542 Parallelization, Processes, Threads 
-- [ ] **30/01** 2543 Lab1,2
-- [ ] **30/01** 3848 Lab1
-- [ ] **01/02** 3542 Lab0,1 Assignment
-- [ ] **02/02** 3542 Lab2 Assignment
-
-#### More than two weeks
-- [ ] **06/02** 3848 Lab2
-- [ ] **13/02** 3848 Lab3
-- [ ] **23/02** 3542 Project Proposal
-- [ ] **27/02** 3848 Lab4
-- [ ] **28/02** 4245 HW1
-- [ ] **06/03** 3848 Lab5
-- [ ] **23/03** 3542 Project System Architecture
-- [ ] **30/03** 3848 Interim report
-- [ ] **31/03** 4245 HW2
-- [ ] **30/04** 4245 HW3
-- [ ] **04/05** 3848 Final report
+## [To-Do List](GitHubCheatSheet.md)
 
 ## MyNotes
-[GitHub Cheat Sheet](GitHubCheatSheet.md)
+[GitHub Cheat Sheet](GitHubCheatSheet.md)  
 
 ## Useful Websites
 ### Downloads
 [GitHub Desktop](https://desktop.github.com/)
+[MarkDownPad](http://markdownpad.com/)
 ### Basic Tutorials
 [TryGit](https://try.github.io/levels/1/challenges/1)  
 [MarkDown Tutorial](https://www.markdowntutorial.com/lesson/1/)
@@ -39,3 +20,16 @@
 [ELEC2543 Object-oriented programming and data structures](https://learning.hku.hk/courses/course-v1:HKU+ELEC2543+201718/courseware/88af514f0650449683f974f6474e49b2/)  
 [ELEC3542 Advanced Programming and Application Development](https://learning.hku.hk/courses/course-v1:HKU+ELEC3542+201718/info)  
 [ELEC4245 Digital image processing](https://www.eee.hku.hk/~elec4245/sp18/)
+
+### Miscellaneous
+####Meltdown
+[MeltdownPaper](https://arxiv.org/pdf/1801.01207.pdf)  
+[Reading privileged memory with a side-channel by _Jann Horn_](https://arxiv.org/pdf/1801.01207.pdf)  
+[WHY RASPBERRY PI ISN’T VULNERABLE TO SPECTRE OR MELTDOWN](https://www.raspberrypi.org/blog/why-raspberry-pi-isnt-vulnerable-to-spectre-or-meltdown/)  
+[Installing Raspian, Apache, VNC, VSFTP, MySQ and, PhpMyAdmin on Raspberry Pi](http://www.robopgmr.com/?p=2519)  
+
+####Raspberry Pi
+[Raspberry Pi Temperature & Humidity Network Monitor](http://www.instructables.com/id/Raspberry-Pi-Temperature-Humidity-Network-Monitor/)  
+[Raspberry Pi Web Server](http://www.instructables.com/id/Raspberry-Pi-Web-Server/)  
+[Web server on Raspberry pi – Apache, php5, mysql, vsftp, webmin, wordpress](http://www.raspberrypirobot.com/web-server-on-raspberry-pi-apache-php5-mysql-vsftp-webmin/)  
+[Setup LAMP Server on Raspberry Pi 3 – Complete DIY Guide](https://pchelp.ricmedia.com/setup-lamp-server-raspberry-pi-3-complete-diy-guide/3/)  
