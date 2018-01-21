@@ -1,3 +1,18 @@
+
+## To-Do List
+#### Due in two weeks
+- **22/01** [x] 3542 MergeSort
+- **25/01** [ ] 3542 Parallelization, Processes, Threads 
+- **30/01** [ ] 2543 Lab1,2
+- **01/02** [ ] 3542 Lab0,1 Assignment
+- **02/02** [ ] 3542 Lab2 Assignment
+
+#### More than two weeks
+- **23/02** [ ] 3542 Project Proposal
+- **28/02** [ ] 4245 HW1
+- **23/03** [ ] 3542 Project System Architecture
+- **31/03** [ ] 4245 HW2
+- **30/04** [ ] 4245 HW3
 ## MyNotes
 [GitHub Cheat Sheet](GitHubCheatSheet.md)
 
