@@ -1,15 +1,15 @@
 ## To-Do List
 #### Due in two weeks
-- [x] **22/01** 3542 MergeSort
-- [ ] **25/01** 3542 Parallelization, Processes, Threads 
-- [ ] **30/01** 2543 Lab1,2a
+- [x] **22/01** 3542 MergeSort Quiz
+- [x] **25/01** 3542 Parallelization, Processes, Threads Quiz
+- [x] **30/01** 2543 Lab1,2a, Quiz
 - [ ] **30/01** 3848 Lab1
 - [ ] **01/02** 3542 Lab0,1 Assignment
 - [ ] **02/02** 3542 Lab2 Assignment
-- [ ] **02/02** 2543 Lab2b
-
-#### More than two weeks
+- [x] **02/02** 2543 Lab2b
 - [ ] **06/02** 3848 Lab2
+- 
+#### More than two weeks
 - [ ] **13/02** 3848 Lab3
 - [ ] **13/02** 2543 MidTerm
 - [ ] **23/02** 3542 Project Proposal

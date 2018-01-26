@@ -33,3 +33,6 @@
 [Raspberry Pi Web Server](http://www.instructables.com/id/Raspberry-Pi-Web-Server/)  
 [Web server on Raspberry pi – Apache, php5, mysql, vsftp, webmin, wordpress](http://www.raspberrypirobot.com/web-server-on-raspberry-pi-apache-php5-mysql-vsftp-webmin/)  
 [Setup LAMP Server on Raspberry Pi 3 – Complete DIY Guide](https://pchelp.ricmedia.com/setup-lamp-server-raspberry-pi-3-complete-diy-guide/3/)  
+
+[Difference between sleep() and wait()?](https://howtodoinjava.com/core-java/multi-threading/difference-between-sleep-and-wait/)  
+[What is the difference between Thread.join and Synchronised?](https://stackoverflow.com/questions/27244677/what-is-the-difference-between-thread-join-and-synchronised)
