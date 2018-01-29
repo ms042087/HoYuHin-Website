@@ -3,9 +3,9 @@
 - [x] **22/01** 3542 MergeSort Quiz
 - [x] **25/01** 3542 Parallelization, Processes, Threads Quiz
 - [x] **30/01** 2543 Lab1,2a, Quiz
-- [ ] **30/01** 3848 Lab1
-- [ ] **01/02** 3542 Lab0,1 Assignment
-- [ ] **02/02** 3542 Lab2 Assignment
+- [x] **30/01** 3848 Lab1
+- [x] **01/02** 3542 Lab0,1 Assignment
+- [x] **02/02** 3542 Lab2 Assignment
 - [x] **02/02** 2543 Lab2b
 - [ ] **06/02** 3848 Lab2
 - 
