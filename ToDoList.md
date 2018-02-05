@@ -1,19 +1,25 @@
 ## To-Do List
-#### Due in two weeks
-- [x] **22/01** 3542 MergeSort Quiz
-- [x] **25/01** 3542 Parallelization, Processes, Threads Quiz
-- [x] **30/01** 2543 Lab1,2a, Quiz1,2
-- [x] **30/01** 3848 Lab1
-- [x] **01/02** 3542 Lab0,1 Assignment
-- [x] **02/02** 3542 Lab2 Assignment
-- [x] **02/02** 2543 Lab2b, Quiz3
-- [ ] **06/02** 3848 Lab2
-- [x] **09/02** 2543 Lab3
-- [x] **09/02** 3542 Lab3
+#### Week 1 (JAN 15-19)
+#### Week 2 (JAN 22-26)
+- [x] **22/01** 3542 Quiz 1
+- [x] **25/01** 3542 Quiz 2
+#### Week 3 (JAN 29-FEB 2)
+- [x] **30/01** 2543 Lab 1,2a, Quiz 1,2
+- [x] **30/01** 3848 Lab 1
+- [x] **01/02** 3542 Lab 0,1
+- [x] **02/02** 3542 Lab 2
+- [x] **02/02** 2543 Lab 2b, Quiz 3
+#### Week 4 (FEB 5-9) Due in two weeks
+- [x] **06/02** 3848 Lab 2
+- [x] **06/02** 2543 Quiz 4a
+- [x] **09/02** 2543 Lab 3, Quiz 4b
+- [x] **09/02** 3542 Lab 3
+#### Week 5 (FEB 12-16) Due in two weeks
+- [ ] **13/02** 3848 Lab3
+- [ ] **13/02** 2543 MidTerm, Lab 4a (DONE)
 
 #### More than two weeks
-- [ ] **13/02** 3848 Lab3
-- [ ] **13/02** 2543 MidTerm
+- [ ] **23/02** 2543 Lab 4b
 - [ ] **23/02** 3542 Project Proposal
 - [ ] **27/02** 3848 Lab4
 - [ ] **28/02** 4245 HW1
