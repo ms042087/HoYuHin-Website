@@ -1,3 +1,5 @@
+//C:\Program Files (x86)\Common Files\Microsoft\Visual C++ for Python\9.0\VC\include
+
 // ISO C9x  compliant stdint.h for Microsoft Visual Studio
 // Based on ISO/IEC 9899:TC2 Committee draft (May 6, 2005) WG14/N1124 
 // 
