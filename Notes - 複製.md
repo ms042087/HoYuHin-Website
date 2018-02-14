@@ -125,3 +125,19 @@ Run the following python code (Note that only Python 2 Shell could be used, Pyth
     db.close()
     print('end')
 
+
+Enter `SELECT * FROM sensorData.TempHumid;` in MySQL  
+You should get something like  
+> +---------------------+-------------+----------+  
+> | DateTime            | Temperature | Humidity |  
+> +---------------------+-------------+----------+  
+> | 2018-02-14 14:18:29 |          18 |       19 |  
+> | 2018-02-14 14:18:45 |          18 |       19 |  
+> | 2018-02-14 14:18:50 |          21 |       31 |  
+> | 2018-02-14 14:18:55 |          18 |       19 |  
+> +---------------------+-------------+----------+  
+> 4 rows in set (0.03 sec)  
+
+This shows data has been recorded in the database
+
+###7. Create a python script to pull data from MySQL
