@@ -1,15 +1,15 @@
 ## Raspberry PI 3 + Arduino + MySQL (Temperature and Humidity DHT11 sensors)
 
-###1. Update The PI to the latest version  
+### 1. Update The PI to the latest version  
     sudo apt-get update && sudo apt-get upgrade
-###2. Configure The PI for serial connection  
+### 2. Configure The PI for serial connection  
 i) Preferences -> Raspberry Pi Configuration -> Interfaces -> Serial (Enabled)  
 ii) Run the following commands to install pyserial:  
 
     sudo apt-get install python-serial
     sudo pip install pyserial
 
-###3.  Upload the program on Arduino
+### 3.  Upload the program on Arduino
 i) Download dht.cpp and dht.h  
 [Download dht.cpp](dht.cpp)  
 [Download dht.h](dht.h)  
@@ -44,7 +44,7 @@ iii) Run the following code:
 
 iv) Click ctrl+shift+m to open the serial monitor. You should be able to see two values representing the temperature and humidity, separated be a ",".
 
-###4. Retrieve data from Arduino on the PI
+### 4. Retrieve data from Arduino on the PI
 i) Connect the Arduino with Raspberry PI with a USB cable  
 ii) Run the following code to check the port number: 
  
@@ -72,7 +72,7 @@ appearing in 5 seconds interval.
 This means we successfully retrieve and interpret data from Arduino.  
 Check the serial monitor in Arduino to confirm the result. 
 
-###5. Install MySQL on the PI
+### 5. Install MySQL on the PI
 i) Run the following code:
 
     sudo apt-get install python-dev libmysqlclient-dev mysql-client mysql-server
@@ -95,7 +95,7 @@ Enter `SELECT * FROM sensorData.TempHumid;`
 Empty set (0.00 sec) should be displayed since there is no data.  
 Click quit to exit the MySQL
 
-###6. Start Logging the data
+### 6. Start Logging the data
 Run the following python code (Note that only Python 2 Shell could be used, Python 3 doesn't have MySQL connector)  
 
     import serial
@@ -103,10 +103,10 @@ Run the following python code (Note that only Python 2 Shell could be used, Pyth
     import datetime
     import MySQLdb
     
-    ser=serial.Serial("/dev/ttyUSB0",9600)
+    ser=serial.Serial("/dev/ttyUSB2",9600)
     ser.baudrate=9600
     
-    db = MySQLdb.connect(host="localhost", user="root", passwd="ms084092", db="sensorData")
+    db = MySQLdb.connect(host="localhost", user="root", passwd="xxx", db="sensorData")
     cur = db.cursor()
     
     while True:
@@ -142,12 +142,12 @@ You should get something like
 
 This shows data has been recorded in the database
 
-###7. Create a python script to pull data from MySQL
+### 7. Create a python script to pull data from MySQL
 Run the following code:
 
     import MySQLdb
     
-    db = MySQLdb.connect(host="localhost", user="root", passwd="ms084092", db="sensorData")
+    db = MySQLdb.connect(host="localhost", user="root", passwd="xxx", db="sensorData")
     cur = db.cursor()
     
     cur.execute("SELECT DateTime, Temperature, Humidity FROM sensorData.TempHumid")
