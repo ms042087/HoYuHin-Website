@@ -1,7 +1,9 @@
 ## Raspberry PI 3 + Arduino + MySQL (Temperature and Humidity DHT11 sensors)
 
 ### 1. Update The PI to the latest version  
+
     sudo apt-get update && sudo apt-get upgrade
+    
 ### 2. Configure The PI for serial connection  
 i) Preferences -> Raspberry Pi Configuration -> Interfaces -> Serial (Enabled)  
 ii) Run the following commands to install pyserial:  
