@@ -42,13 +42,15 @@ iii) Run the following code:
       delay(5000);  // interval = 5 seconds
     }  
 
-iv) Click ctrl+shift+m to open the serial monitor. You should be able to see two values representing the temperature and humidity, separated be a ",".
+iv) Click ctrl+shift+m to open the serial monitor.  
+You should be able to see two values representing the temperature and humidity, separated be a ",".
 
 ### 4. Retrieve data from Arduino on the PI
 i) Connect the Arduino with Raspberry PI with a USB cable  
 ii) Run the following code to check the port number: 
  
     ls /dev/tty*
+    
 You should be able to see something like ttyUSB2.  
 iii) Run the following python code with replacing the ttyUSBX in the second line of code:
 
@@ -68,7 +70,7 @@ You should be able to see something like
 >temperature = 18  
 >humidity = 19
 
-appearing in 5 seconds interval.
+appearing in 5 seconds interval.  
 This means we successfully retrieve and interpret data from Arduino.  
 Check the serial monitor in Arduino to confirm the result. 
 
@@ -77,21 +79,25 @@ i) Run the following code:
 
     sudo apt-get install python-dev libmysqlclient-dev mysql-client mysql-server
     sudo pip install mysql-python
+    
 During the installation, you will be prompted to setup the password of the root user.  
 
 ii) Login to MySQL as the root user in the terminal:
 
     mysql -u root -p
+    
 ii) Enter your password  
 iii) Setup a database
 
     CREATE DATABASE sensorData; 
     USE sensorData; // Enter the database
+    
 Enter the command \s to see the status, note that the Current databse is now be sensorData.
 
     CREATE TABLE TempHumid(DateTime DATE, Temperature NUMERIC, Humidity NUMERIC);
 
 Enter `SELECT * FROM sensorData.TempHumid;`  
+
 Empty set (0.00 sec) should be displayed since there is no data.  
 Click quit to exit the MySQL
 
