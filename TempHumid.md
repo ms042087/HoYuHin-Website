@@ -11,6 +11,8 @@ ii) Run the following commands to install pyserial:
 
 ###3.  Upload the program on Arduino
 i) Download dht.cpp and dht.h  
+[Download dht.cpp](dht.cpp)  
+[Download dht.h](dht.h)  
 ii) Connect the Arduino to PC and configure it  
 iii) Run the following code:
 
@@ -63,8 +65,8 @@ iii) Run the following python code with replacing the ttyUSBX in the second line
     print("temperature = ",float(temperature),"\nhumidity = ",float(humidity),"\n")
 
 You should be able to see something like
-> temperature = 18.0  
-> humidity = 19.0  
+>temperature = 18  
+>humidity = 19
 
 appearing in 5 seconds interval.
 This means we successfully retrieve and interpret data from Arduino.  
@@ -141,3 +143,28 @@ You should get something like
 This shows data has been recorded in the database
 
 ###7. Create a python script to pull data from MySQL
+Run the following code:
+
+    import MySQLdb
+    
+    db = MySQLdb.connect(host="localhost", user="root", passwd="ms084092", db="sensorData")
+    cur = db.cursor()
+    
+    cur.execute("SELECT DateTime, Temperature, Humidity FROM sensorData.TempHumid")
+    
+    print ("%s\t\t%s\t%s\t" %("DateTime","Temperature","Humidity"))
+    
+
+    for row in cur.fetchall() :
+
+      dateTime = str(row[0])
+      temperature = str(row[1])
+      humidity = str(row[2])
+    
+      print ("%s\t%s\t\t%s\t" %(dateTime,temperature,humidity))
+    
+    cur.close()
+    db.close ()
+
+The following is displayed in the shell.  
+![](pic1.jpg)
