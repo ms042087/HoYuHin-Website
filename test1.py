@@ -17,7 +17,6 @@ while True:
     print("temperature = ",float(temperature),"\nhumidity = ",float(humidity),"\n")
     currentDateTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
    
-    
     sql = "INSERT INTO sensorData.TempHumid (DateTime, Temperature, Humidity) VALUES (%s, %s, %s)"
     data = (currentDateTime, temperature, humidity)
     cur.execute(sql,(data))
