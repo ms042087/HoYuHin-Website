@@ -15,15 +15,18 @@
 - [x] **09/02** 2543 Lab 3, Quiz 4b
 - [x] **09/02** 3542 Lab 3
 #### Week 5 (FEB 12-16) Due in two weeks
-- [ ] **13/02** 3848 Lab3
+- [x] **13/02** 3848 Lab3
 - [ ] **13/02** 2543 MidTerm, Lab 4a (DONE)
-
-#### More than two weeks
-- [ ] **23/02** 2543 Lab 4b
+#### Week 6 (FEB 19-23) Due in two weeks
+- [ ] **20/02** CyberPort
+- [x] **23/02** 2543 Lab 4b
 - [ ] **23/02** 3542 Project Proposal
+#### More than two weeks
+- [ ] **29/02** Chinese HW1
 - [ ] **27/02** 3848 Lab4
 - [ ] **28/02** 4245 HW1
 - [ ] **06/03** 3848 Lab5
+- [ ] **17/03** Chinese HW2
 - [ ] **23/03** 3542 Project System Architecture
 - [ ] **30/03** 3848 Interim report
 - [ ] **31/03** 4245 HW2

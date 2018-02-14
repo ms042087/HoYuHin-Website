@@ -36,3 +36,5 @@
 
 [Difference between sleep() and wait()?](https://howtodoinjava.com/core-java/multi-threading/difference-between-sleep-and-wait/)  
 [What is the difference between Thread.join and Synchronised?](https://stackoverflow.com/questions/27244677/what-is-the-difference-between-thread-join-and-synchronised)
+
+[MQTT](https://www.hivemq.com/blog/how-to-get-started-with-mqtt)
