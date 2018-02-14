@@ -43,9 +43,54 @@ iii) Run the following code:
 iv) Click ctrl+shift+m to open the serial monitor. You should be able to see two values representing the temperature and humidity, separated be a ",".
 
 ###4. Retrieve data from Arduino on the PI
-i) Connect the Arduino with Raspberry PI with a USB cable
+i) Connect the Arduino with Raspberry PI with a USB cable  
 ii) Run the following code to check the port number: 
  
     ls /dev/tty*
-You should be able to see something like ttyUSBX.  
-iii) 
+You should be able to see something like ttyUSB2.  
+iii) Run the following python code with replacing the ttyUSBX in the second line of code:
+
+    import serial
+    
+    ser=serial.Serial("/dev/ttyUSB2",9600) 
+    ser.baudrate=9600
+    
+    while True:
+    line = ser.readline().strip();
+    values = line.decode('ascii').split(',')
+    temperature, humidity = [int(s) for s in values]
+    
+    print("temperature = ",float(temperature),"\nhumidity = ",float(humidity),"\n")
+
+You should be able to see something like
+> temperature = 18.0  
+> humidity = 19.0  
+
+appearing in 5 seconds interval.
+This means we successfully retrieve and interpret data from Arduino.  
+Check the serial monitor in Arduino to confirm the result. 
+
+###5. Install MySQL on the PI
+i) Run the following code:
+
+    sudo apt-get install python-dev libmysqlclient-dev mysql-client mysql-server
+    sudo pip install mysql-python
+During the installation, you will be prompted to setup the password of the root user.  
+
+ii) Login to MySQL as the root user in the terminal:
+
+    mysql -u root -p
+ii) Enter your password  
+iii) Setup a database
+
+    CREATE DATABASE sensorData; 
+    USE sensorData; // Enter the database
+Enter the command \s to see the status, note that the Current databse is now be sensorData.
+
+    CREATE TABLE TempHumid(CurrentDate DATE, CurrentTime TIME, Temperature NUMERIC, Humidity NUMERIC);
+
+Enter `SELECT * FROM sensorData.TempHumid;`  
+Empty set (0.00 sec) should be displayed since there is no data.  
+Click quit to exit the MySQL
+
+###6. 
