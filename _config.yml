@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Site description for the metas.
+title:            Technology and Engineering
+description:      Note down my work
 logo:             omikron.png
 disqus_shortname: shortname
 # Assign a default image for your site's header and footer
@@ -19,12 +19,12 @@ url:          https://ms042087.github.io/
 
 # Gems used
 gems:
-  - jekyll-feed
-  - jekyll-archives
+  #- jekyll-feed
+  #- jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-seo-tag
+  #- jekyll-seo-tag
 
 # Archives configuration
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
@@ -50,8 +50,8 @@ author:
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
-  github:
-  linkedin:
+  github: https://github.com/ms042087
+  linkedin: https://www.linkedin.com/in/yuhin-ho-89324110b/
   instagram:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
@@ -85,7 +85,7 @@ sitemap:
         - "/index.html"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Hong_Kong
 future:      true
 markdown:    kramdown
 highlighter: rouge
