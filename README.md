@@ -1,9 +1,9 @@
 ## [To-Do List](ToDoList.md)
 
-## MyNotes
+## Notes
 [GitHub Cheat Sheet](GitHubCheatSheet.md)  
 [TempHumid](TempHumid.md)  
-[TempHumi212d](Note2.md)  
+[Python Notes](Python.md)  
 ## Useful Websites
 ### Downloads
 [GitHub Desktop](https://desktop.github.com/)
