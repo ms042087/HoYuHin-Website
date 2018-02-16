@@ -44,18 +44,18 @@ jekyll-archives:
 author:
   name:           Yu Hin Ho
   picture:        your-photo.jpg
-  email:          ms042087@gmail.com
+  email:          ms042087mgmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    eee student
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
-  github: ms042087
+  github: https://github.com/ms042087
   linkedin: https://www.linkedin.com/in/yuhin-ho-89324110b/
   instagram:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus:    "http://plus.google.com/123123123123132123"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
