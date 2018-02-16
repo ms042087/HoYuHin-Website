@@ -3,6 +3,7 @@
 ## MyNotes
 [GitHub Cheat Sheet](GitHubCheatSheet.md)  
 [TempHumid](TempHumid.md)  
+[TempHumi212d](Note2.md)  
 ## Useful Websites
 ### Downloads
 [GitHub Desktop](https://desktop.github.com/)
