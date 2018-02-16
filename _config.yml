@@ -19,26 +19,26 @@ url:          https://ms042087.github.io/
 
 # Gems used
 gems:
-  #- jekyll-feed
-  #- jekyll-archives
+  - jekyll-feed
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  #- jekyll-seo-tag
+  - jekyll-seo-tag
 
 # Archives configuration
 # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
 jekyll-archives:
   enabled:
-    - categories
-    - tags
+    #- categories
+    #- tags
   layout: 'archive'
   permalinks:
     # year: '/:year/'
     # month: '/:year/:month/'
     # day: '/:year/:month/:day/'
-    tag: '/archive/tag/:name/'
-    category: '/archive/category/:name/'
+    #tag: '/archive/tag/:name/'
+    #category: '/archive/category/:name/'
 
 # Owner/author information
 author:
