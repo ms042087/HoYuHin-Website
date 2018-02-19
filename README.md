@@ -3,7 +3,7 @@
 ## Notes
 [GitHub Cheat Sheet](GitHubCheatSheet.md)  
 [TempHumid](TempHumid.md)  
-[Python Notes](Python.md)  
+[Python Notes](python\Python.md)  
 ## Useful Websites
 ### Downloads
 [GitHub Desktop](https://desktop.github.com/)
