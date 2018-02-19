@@ -1,11 +1,11 @@
 ## Python
 
-[Basic Syntax](BasicPython.py)  
-[DeepCopy](Deepcopy.py)  
+[Basic Syntax](BasicPython.md)  
+[DeepCopy](Deepcopy.md)  
 #### Multi threading
-[Multithreading-Join](Multithreading-Join.py)  
-[Multithreading-Lock](Multithreading-Lock.py)  
+[Multithreading-Join](Multithreading-Join.md)  
+[Multithreading-Lock](Multithreading-Lock.md)  
 #### MatPlotLib
-[MatPlot](Matplot.py)  
+[MatPlot](Matplot.md)  
 #### Subprocess and File I/O
-[Subprocess](Subprocess.py)  
+[Subprocess](Subprocess.md)  
