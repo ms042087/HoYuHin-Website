@@ -1,0 +1,8 @@
+Test the correctness of method equals...
+date1.equals(date2) returns true
+
+Dates in ascending order:
+[29/8/1842, 18/10/1860, 9/6/1898, 16/3/1910, 10/10/1911, 15/8/1945, 1/9/1962, 1/7/1997, 1/4/2003, 18/8/2011]
+
+Dates in descending order:
+[18/8/2011, 1/4/2003, 1/7/1997, 1/9/1962, 15/8/1945, 10/10/1911, 16/3/1910, 9/6/1898, 18/10/1860, 29/8/1842]
