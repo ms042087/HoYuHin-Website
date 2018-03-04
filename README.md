@@ -1,9 +1,13 @@
 ## [To-Do List](ToDoList.md)
 
 ## Notes
-[GitHub Cheat Sheet](GitHubCheatSheet.md)  
-[TempHumid](TempHumid.md)  
+[Java Notes](Java_Notes.md)  
 [Python Notes](Python.md)  
+[GitHub Cheat Sheet](GitHubCheatSheet.md)  
+[TensorFlow Installation Guide](TensorFlowWindowInstallation.md)  
+### Raspberry Pi project
+[Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](TempHumid.md)  
+
 ## Useful Websites
 ### Downloads
 [GitHub Desktop](https://desktop.github.com/)
@@ -16,11 +20,6 @@
 [GitHub Cheat sheet](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md)  
 [How to use GitHub](https://github.com/xirong/my-git/blob/master/how-to-use-github.md)  
 [Team Collaboration With GitHub](https://code.tutsplus.com/articles/team-collaboration-with-github--net-29876)
-
-### Courses Links
-[ELEC2543 Object-oriented programming and data structures](https://learning.hku.hk/courses/course-v1:HKU+ELEC2543+201718/courseware/88af514f0650449683f974f6474e49b2/)  
-[ELEC3542 Advanced Programming and Application Development](https://learning.hku.hk/courses/course-v1:HKU+ELEC3542+201718/info)  
-[ELEC4245 Digital image processing](https://www.eee.hku.hk/~elec4245/sp18/)
 
 ### Miscellaneous
 #### Meltdown
