@@ -89,9 +89,9 @@ AlarmDoor is door with alarm, not alarm with door.
     Thread t = new ExtendedThread();
     t.start();
 #### Join
-    public	static	void	main	(String[]	args)	{
-      PrintOddThread thread1	=	new	PrintOddThread();
-      PrintEvenThread thread2	=	new	PrintEvenThread();
+    public static void main (String[] args) {
+      PrintOddThread thread1 = new PrintOddThread();
+      PrintEvenThread thread2 = new PrintEvenThread();
 
     thread1.start();
     thread2.start();
@@ -99,7 +99,7 @@ AlarmDoor is door with alarm, not alarm with door.
     try	{
     thread1.join();
     thread2.join();
-    }	catch	(InterruptedException e)	{
+    } catch	(InterruptedException e)	{
     System.exit(1);
     }
     System.out.println(“end	of	program”);
@@ -107,18 +107,18 @@ AlarmDoor is door with alarm, not alarm with door.
 
 #### Lock
     public	class	ThreadInterleaveSharedDataMutex {
-      public	static	int sharedData =	0;
-      public	static	Object	lock	=	new	Object();	//	for	thread	synchronization
+      public static	int sharedData = 0;
+      public static	Object lock	= new Object();	//	for	thread	synchronization
 
-      static	class	MyThread extends	Thread	{
+      static class MyThread extends Thread	{
         private	int id;
         public	MyThread(int i)	{
-          id	=	i;
+          id = i;
         }
-        public	void	run()	{
-          synchronized(lock)	{
-            System.out.println("Thread	"	+	id	+	"	before	update:	"	+	sharedData++);
-            System.out.println("Thread	"	+	id	+	"	after	update:	"	+	sharedData);
+        public void run() {
+          synchronized(lock) {
+            System.out.println("Thread " + id + " before update: " +	sharedData++);
+            System.out.println("Thread " +	id + " after update:	" + sharedData);
           }
         }
     }

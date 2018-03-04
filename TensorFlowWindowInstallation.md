@@ -12,6 +12,7 @@ Download cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0
 [Link](https://developer.nvidia.com/rdp/cudnn-download)
 
 Run the following code to test
+
     import tensorflow as tf
     hello = tf.constant('Hello, TensorFlow!')
     sess = tf.Session()
