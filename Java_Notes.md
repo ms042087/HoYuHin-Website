@@ -14,12 +14,14 @@ demo1 [bbb] -> [ccc] -> 1
 demo2 [ddd] -> [ccc] -> 1
 
 ### Visibility Modifier
+
 ||Same class|Same package|inheritance|other package|
 |:--|:--|:--|:--|:--|
 |public|o|o|o|o|
 |protected|o|o|o|x|
 |friendly|o|o|x|x|
 |private|o|x|x|x|
+
 
 ### Static
 Static variable: same for whole class  
@@ -77,6 +79,35 @@ AlarmDoor is door with alarm, not alarm with door.
      void close() { … }  
         void alarm() { … }  
     }  
+
+### Interface & inheritance
+#### Interface:  
+1. used to define actions and behaviour to class, a class that **implements** the interface contains all the methods/CONSTANT (NO instance variable) of the interface
+2. everything is **abstract** in interface
+3. **abstract method** is a method header **without a method body**, a class that implements the interface MUST implement ALL methods.
+4. CANNOT be instantiated (NEVER use **new** in interface), but it can be a type that referencing an object that implement the interface. 
+E.g. InterfaceName a = new Classname();
+P.S.
+String class implements Comparable, we can compare strings
+
+	ClassName implements Comparable  
+	public int compareTo(Object other){  
+	ClassName a = (ClassName) other;  
+	…
+	}
+
+####Inheritance:
+1. a class that **extends** the class (superclass/parent class) is called subclass/ child class
+2. child class contain all the methods/data from the parent
+3. Only can extends 1 class
+4. **protected** is used when the variable can be used by its child/ itself only
+5. **final** is used when no class can be inherited from this class / this method cannot be overridden
+6. In constructor of child class, the **no argument constructor** of the parent will be called automatically if we do not specify.
+We can use **super( <Arg List>)** to invoke specific constructor of the parent class 
+7. Child class can override methods in the parent class, the child class can invoke the not overrided method by super.methodName()
+8. suppose A->B->C and they have a variable called test. To called test of A in C, we use ((A)this).test. NOT super.super.test
+9. **abstract class** represent generic concept and cannot be instantiated, it can contains abstract/ non-abstract methods
+
 
 ### Multi-threading
     public class RunnableThread implements Runnable{

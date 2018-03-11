@@ -24,7 +24,7 @@
 - [x] **23/02** 3542 Project Proposal
 - [x] **23/02** 3542 Lab 5, quiz
 - [x] **23/02** 4642 HW 1
-#### Week 7 (FEB 26 - MAR 2) Due in two weeks
+#### Week 7 (FEB 26 - MAR 2) 
 - [x] **27/02** 3848 Lab4
 - [x] **27/02** 3542 Lab 6, proposal consultation 1245-1300
 - [x] **27/02** 2543 quiz6a
@@ -32,14 +32,17 @@
 - [x] **29/02** Chinese HW1
 - [x] **02/03** 2543 Lab 5, quiz6b
 - [x] **02/03** 3542 Lab 7
-#### Reading week (FEB 5 - MAR 9) Due in two weeks
+#### Reading week (FEB 5 - MAR 9)
 - [x] **06/03** 3848 Lab5
-#### Week 8 (FEB 12 - MAR 16) 
-- [x] **13/03** 2543 Lab6a
+#### Week 8 (FEB 12 - MAR 16) Due in two weeks
+- [x] **13/03** 2543 Lab6a, Quiz 7
 - [x] **16/03** 2543 Lab6b
-#### More than two weeks
+#### Week 9 (FEB 19 - FEB 23) Due in two weeks
 - [x] **17/03** Chinese HW2
-- [ ] **23/03** 3542 Project System Architecture
+- [x] **20/03** 2543 Lab 7, Quiz 8
+#### More than two weeks
+- [ ] **27/03** 3542 MidTerm
+- [ ] **29/03** 3542 Project System Architecture
 - [ ] **30/03** 3848 Interim report
 - [ ] **31/03** 4245 HW2
 - [ ] **30/04** 4245 HW3
