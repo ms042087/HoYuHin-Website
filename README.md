@@ -5,6 +5,9 @@
 [Python Notes](Python.md)  
 [GitHub Cheat Sheet](GitHubCheatSheet.md)  
 [TensorFlow Installation Guide](TensorFlowWindowInstallation.md)  
+[Communication between devices](Communication_between_devices.pdf)  
+[Introfuction to BTLE, Zigbee, ZWave](BTLE_Zigbee_ZWave_Intro.pdf)
+
 ### Raspberry Pi project
 [Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](TempHumid.md)  
 
