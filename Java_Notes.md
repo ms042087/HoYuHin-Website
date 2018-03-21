@@ -96,7 +96,7 @@ String class implements Comparable, we can compare strings
 	…
 	}
 
-####Inheritance:
+#### Inheritance:
 1. a class that **extends** the class (superclass/parent class) is called subclass/ child class
 2. child class contain all the methods/data from the parent
 3. Only can extends 1 class
@@ -107,6 +107,13 @@ We can use **super( <Arg List>)** to invoke specific constructor of the parent c
 7. Child class can override methods in the parent class, the child class can invoke the not overrided method by super.methodName()
 8. suppose A->B->C and they have a variable called test. To called test of A in C, we use ((A)this).test. NOT super.super.test
 9. **abstract class** represent generic concept and cannot be instantiated, it can contains abstract/ non-abstract methods
+
+### Polymorphism
+Polymorphic reference is a variable that can refer to different types of objects at different points in time.
+widening/narrowing conversion
+widening: assign child to parent reference
+narrowing: assig
+
 
 
 ### Multi-threading
