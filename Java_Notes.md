@@ -13,7 +13,9 @@ data [aaa] -> 1
 demo1 [bbb] -> [ccc] -> 1  
 demo2 [ddd] -> [ccc] -> 1
 
-### Visibility Modifier
+### Class
+
+### Visibility/Access Modifier
 
 ||Same class|Same package|inheritance|other package|
 |:--|:--|:--|:--|:--|
@@ -28,6 +30,7 @@ Static variable: same for whole class
 Static method:  
 - It is invoked by the Java interpreter without creating an object  
 - Cannot reference instance variables because instance variables don't exist until an object exists
+- **this** can not be used in static method
 
 ### Method
 PASS BY VALUES in JAVA
@@ -63,6 +66,9 @@ Array is an OBJECT in Java
 
 ### Abstract class and interface  
 A class can only extends one abstract class, but can implements lots of interface.  
+
+It cannot be instantiated as object.
+The subclass inherit it must implement all methods in abstract class.
 AlarmDoor is door with alarm, not alarm with door.  
 
     abstract class Door {  
@@ -110,11 +116,28 @@ We can use **super( <Arg List>)** to invoke specific constructor of the parent c
 
 ### Polymorphism
 Polymorphic reference is a variable that can refer to different types of objects at different points in time.
-widening/narrowing conversion
-widening: assign child to parent reference
-narrowing: assig
+widening/narrowing conversion  
+widening: assign child to parent reference  
+narrowing: assig  parent to child reference  
+利用父類別的型態  
+接受子類別的物件  
+做相同的動作  
+引發不同的行為  
+將相同的訊息傳遞給不同的物件，進而引發出不同的行為反應  
+可使程式的執行不在於編譯時期決定，而延後到執行期間才動態決定呼叫何者。  
 
+((Bird)animalList[0]).fly();  
+((Dog)animalList[0]).bark();  
+// invoke methods in a child class
 
+//widening conversion
+
+Animal a = new Bird(); 
+Animal b= new Dog(); 
+
+It is the type of the object being referenced, not the reference type, determines which method is invoked  
+
+Polymorphism means that the sender of a stimulus does not need to know the receiving instance’s class. The receiving instance can belogin to an arbitrary class.
 
 ### Multi-threading
     public class RunnableThread implements Runnable{
@@ -221,3 +244,32 @@ Challenge:
 - fault tolerance (the network should work well under node failure)
 - communication infrastructure
 - maintenance (replacement may not be available, remote software upgrade)
+
+### Sorting 
+Merge Sort
+O(nlogn)
+divide into half O(logn)
+Combine, at most n-1 comparison -> O(n)
+=> O(nlogn)
+
+Quick Sort
+Take the leftmost element as pivot
+separate into two sublists with elements that are smaller/larger than the pivot
+average case: half half => O(logn)
+worst case (sorted list) => O(n)
+Combine, at most n-1 comparison -> O(n)
+=> average case = O(nlogn), worst case = O(n^2)
+
+Bubble Sort
+Compare the first one and the second one, if the first is larger than second, swap. Same for the second and the third one, and i-1 and i one. After this, the last element will be the largest. Repeat the process to i-2 and i-1, then i-3 and i-2.
+O(n) scan
+O(n) compare
+n+(n-1)+(n-2)+... = O(n^2)
+
+Insertion Sort
+Take the first element in the array to sorted array.
+compare the second element with elements in sorted array.
+Insert in correct position.
+O(n) scan
+O(n) compare
+1+2+...+(n-1)+(n) = O(n^2)

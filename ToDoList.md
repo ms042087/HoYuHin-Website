@@ -41,18 +41,26 @@
 - [x] **17/03** Chinese HW2
 - [x] **20/03** 2543 Lab 7, Quiz 8a
 - [x] **23/03** 2543 Quiz 8b
-#### Week 10 (MAR 26 - MAR 30) Due in two weeks
+#### Week 10 (MAR 26 - MAR 30)
 - [x] **27/03** 2543 Lab8a, Quiz 9
-- [ ] **27/03** 3542 MidTerm
-- [ ] **29/03** 3542 Project System Architecture
-- [ ] **30/03** 3848 Interim report
-- [ ] **30/03** 2543 Lab8b
-- [ ] **31/03** 4245 HW2
+- [x] **27/03** 3542 MidTerm
+- [x] **29/03** 3542 Project System Architecture
+- [x] **30/03** 3848 Interim report
+- [x] **30/03** 2543 Lab8b
+- [x] **31/03** 4245 HW2
 #### Week 11 (APR 2 - APR 6) Due in two weeks
-
-- [ ] **03/04** 2543 MidTerm (To polymorphism)
-- [ ] **03/04** 3542 Lab 8
-- [x] **06/04** 2543 Quiz 10
+- [x] **03/04** 2543 MidTerm (To polymorphism), lab 9
+- [x] **03/04** 3542 Lab 8
+- [ ] **05/04** Chinese Internal deadline
+- [x] **06/04** 2543 Quiz 10, HW1
+- [x] **06/04** 3542 Lab 9
+- [ ] **06/04** 4642 HW2
+#### Week 12 (APR 9 - APR 13) Due in two weeks
+- [x] **10/04** 3542 lab 10
+- [ ] **12/04** Chinese present
+- [x] **13/04** 2543 lab 10
 #### More than two weeks
+- [ ] **24/04** 2543 lab 11a
+- [ ] **27/04** 2543 lab 11b
 - [ ] **30/04** 4245 HW3
 - [ ] **04/05** 3848 Final report
