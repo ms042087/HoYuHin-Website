@@ -48,19 +48,25 @@
 - [x] **30/03** 3848 Interim report
 - [x] **30/03** 2543 Lab8b
 - [x] **31/03** 4245 HW2
-#### Week 11 (APR 2 - APR 6) Due in two weeks
+#### Week 11 (APR 2 - APR 6)
 - [x] **03/04** 2543 MidTerm (To polymorphism), lab 9
 - [x] **03/04** 3542 Lab 8
-- [ ] **05/04** Chinese Internal deadline
+- [x] **05/04** Chinese Internal deadline
 - [x] **06/04** 2543 Quiz 10, HW1
 - [x] **06/04** 3542 Lab 9
-- [ ] **06/04** 4642 HW2
+- [x] **06/04** 4642 HW2
 #### Week 12 (APR 9 - APR 13) Due in two weeks
 - [x] **10/04** 3542 lab 10
 - [ ] **12/04** Chinese present
 - [x] **13/04** 2543 lab 10
-#### More than two weeks
+- [x] **13/04** 3542 lab 11
+#### Week 13 (APR 16 - APR 20) Due in two weeks
+
+#### Week 14 (APR 23 - APR 27) 
 - [ ] **24/04** 2543 lab 11a
 - [ ] **27/04** 2543 lab 11b
+
+#### ||||end of semester||||
+#### Other assignment
 - [ ] **30/04** 4245 HW3
 - [ ] **04/05** 3848 Final report
