@@ -9,12 +9,12 @@
 [Connecting Rpi and Arduino using HC-05 Bluetooth module](HC05_Arduino_Rpi.md)  
 
 ## IoT
-####Communication Protocol
-#####Wireless
+#### Communication Protocol
+##### Wireless
 [MQTT](https://www.hivemq.com/blog/how-to-get-started-with-mqtt)  
 [Introduction to BTLE, Zigbee, ZWave](BTLE_Zigbee_ZWave_Intro.pdf)  
 [Setup iBeacon](Setup_iBeacon.md)
-#####Wired
+##### Wired
 [Communication between devices](Communication_between_devices.pdf)  
 
 ### Raspberry Pi project
