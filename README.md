@@ -9,6 +9,10 @@
 [Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](TempHumid.md)  
 [Connecting Rpi and Arduino using HC-05 Bluetooth module](HC05_Arduino_Rpi.md)  
 
+### Other project
+#### Verilog HDL
+[XOR problem - Artificial neural network](VLSI.pdf)
+
 ## IoT
 #### Communication Protocol
 ##### Wireless
