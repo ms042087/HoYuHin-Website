@@ -8,6 +8,8 @@
 [Communication between devices](Communication_between_devices.pdf)  
 [Introduction to BTLE, Zigbee, ZWave](BTLE_Zigbee_ZWave_Intro.pdf)  
 [Setup iBeacon](Setup iBeacon.md)
+[HC05 Arduino Rpi](HC05 Arduino Rpi.md)
+
 ### Raspberry Pi project
 [Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](TempHumid.md)  
 

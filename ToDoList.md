@@ -57,16 +57,59 @@
 - [x] **06/04** 4642 HW2
 #### Week 12 (APR 9 - APR 13) Due in two weeks
 - [x] **10/04** 3542 lab 10
-- [ ] **12/04** Chinese present
+- [x] **12/04** Chinese present
 - [x] **13/04** 2543 lab 10
 - [x] **13/04** 3542 lab 11
 #### Week 13 (APR 16 - APR 20) Due in two weeks
-
+- [x] **20/04** 3848 video
 #### Week 14 (APR 23 - APR 27) 
-- [ ] **24/04** 2543 lab 11a
-- [ ] **27/04** 2543 lab 11b
+- [x] **23/04** Interview
+- [x] **24/04** 2543 lab 11a
+- [x] **24/04** 3542 lab 12
+- [x] **24/04** 3848 presentation
+- [x] **26/04** Chinese report
+- [x] **27/04** 2543 lab 11b
+- [x] **27/04** 3542 lecture video
+- [x] **27/04** 3542 presentation
 
 #### ||||end of semester||||
-#### Other assignment
-- [ ] **30/04** 4245 HW3
-- [ ] **04/05** 3848 Final report
+#### Other 
+- [x] **30/04** 4245 HW3
+- [x] **04/05** 3848 Final report
+- [x] **08/05** 4642 VLSI HW3
+- [x] **08/05** VLSI EXAM 1430-1630 MB142, HW3
+- [x] **10/05** Image Processing EXAM MB122
+- [x] **11/05** Chinese EXAM Lindsay Ride
+- [x] **11/05** Interview
+- [x] **20/05** 4642 VLSI proj  
+- [x] **21/05** Adv Prog EXAM MB G07
+- [x] **21/05** 3542 final presentation
+- [x] **22/05** 2543 HW2 
+- [x] **23/05** OOP EXAM MB167
+- [ ] **27/05** 3542 final report
+
+idp  
+16/3 UltraSound Arduino  
+18/3 Basic Design of App  
+21/3 Login and Register Event, Database setup  
+25/3 Passing data to menu  
+4/4 Getting data from database in CarParkSelection  
+5/4 Updated CarParkSelection to use ListView  
+7/4 Getting data from database in Record  
+14/4 Install LAMP server in rpi, setup database, fixed Apps bugs  
+16/4 VNC, update vacancy to db, load vacancy in app, select parking space  
+17/4 update UI, booking  
+18/4 Cant book multiple parking space, current booking page, booking timeout, calcel booking  
+19/4 solve bugs, lighting logic, python update vacancy improvement, unauthorized parking warning  
+20/4 Video, use card reader to control lighting
+24/4 final tune and present
+
+VLSI  
+9/4 Python implementation  
+14/4 Test of FPGA
+
+Adv prog
+9/3 develop apps to control the car using bluetooth
+28/4 measure inclination, test sending voice
+15/5 crypto
+16/5 intercomm, measure and send speed, ThingSpeak
