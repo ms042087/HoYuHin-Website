@@ -1,15 +1,30 @@
 # Ho Yu Hin 's website
  [To-Do List](ToDoList.md)
 
-## Notes
-[Java Notes](Java.md)  
-[Python Notes](Python.md)  
+## Raspberry Pi & Arduino project
+[Bus Safety System](AdvProgProject/AdvProg.pdf)  [Last update: 27/05/18]  
+Technique:  
+1. Communication:  
+	- TCP and UDP   
+	- Voice communication between two Raspberry Pi  
+2. Security and Privacy  
+	- Diffie–Hellman key exchange  
+	- AES encryption and decryption  
+3. Data visualization:  
+	- ThingSpeak platform  
+	- Plotly platform  
+4. Parallel Processing  
+	- multi-threading  
 
-### Raspberry Pi project
-[Smart Car Park](CarParkProject/Report.pdf)  
-[Bus Safety System](AdvProgProject/AdvProg.pdf)  
+[Smart Car Park](CarParkProject/Report.pdf)  [Last update: 01/05/18]  
+Technique:  
+1. Android Programming, interacting with database  
+2. LAMP(Linux, Apache, MySQL, PHP) server on Raspberry Pi  
+3. Arduino controls LCD display, card reader and servo motor  
+
 [Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](TempHumid.md)  
 [Connecting Rpi and Arduino using HC-05 Bluetooth module](HC05_Arduino_Rpi.md)  
+
 
 ### Other project
 #### Verilog HDL
@@ -35,6 +50,11 @@
 #### Programming Reference
 [Difference between sleep() and wait()?](https://howtodoinjava.com/core-java/multi-threading/difference-between-sleep-and-wait/)  
 [What is the difference between Thread.join and Synchronised?](https://stackoverflow.com/questions/27244677/what-is-the-difference-between-thread-join-and-synchronised)  
+
+## Notes
+[Java Notes](Java.md)  
+[Python Notes](Python.md)  
+
 
 ## Useful Websites / Reference
 #### GitHub / Markdown
