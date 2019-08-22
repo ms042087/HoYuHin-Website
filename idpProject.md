@@ -1,6 +1,36 @@
 #### Server:  
-1. Use [XAMPP](https://www.apachefriends.org/index.html) to Setup a Apache Web Server and MySQL database  
-![](XAMPP.jpg =120x) 
+1. Install LAMP server  
+	You should have your **L** (Linux environment) e.g. Raspbian prepared  
+	Install **A** - Apache 2 Server  
+	`sudo apt-get install apache2  `  
+	Install **M** - MySQL  
+    	`sudo apt-get install mysql-server  `  
+    	`sudo mysql_secure_installation  `  
+	Install **P** - PHP and phpmyadmin  
+	`sudo apt-get install phpmyadmin  `  
+	Setup (if needed)  
+	`sudo nano /etc/apache2/apache2.conf  `  
+	add a line:  
+	Include /etc/phpmyadmin/apache.conf  
+	sudo /etc/init.d/apache2 restart  
+	
+	To access the phpmyadmin:  
+	goto [ip address]/phpmyadmin  
+
+
+	Check status of apache2 server  
+	`sudo systemctl status apache2  `  
+
+	Check listening port  
+	`sudo lsof -i -P -n  `  
+
+	Check port status  
+	`netstat -tuplen  `  
+
+	Configure MySQL to accept external connections to Raspberry Pi  
+	`sudo nano /etc/mysql/my.cnf  `  
+	`#bind-address = 127.0.0.1`
+	`/etc/init.d/mysql restart`
 2. Set up the database structure through phpMyAdmin. For easy design of database structure, you can use [MySQL workbench](https://www.mysql.com/products/workbench/) to configure the database  
 3. Create User with appropriate grant of access  
 4. Go to [no-ip.com](https://www.noip.com/) to get a free hostname and get DDNS service. To automatically updates the hostname to the correct IP address, download the [Dynamic Update Client (DUC)](https://my.noip.com/#!/dynamic-dns/duc)  
