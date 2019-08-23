@@ -1,14 +1,16 @@
-# Ho Yu Hin 's website
+# Tony Ho 's website
+Passionate about IoT technology. 
+
 
 ## Project
+[Channel Access Control Protocol of LoRaWAN]()  
+Research findings:  
 
-[Channel Access Control Protocol of LoRaWAN]() 
-Research findings:
 
-[Bus Safety System](Project/BusSafetySystem/Bus.pdf)  [Last update: 27/05/18]  
-Technique:  
+[Bus Safety System](Project/BusSafetySystem/Bus.pdf)   
+**Technique:**  
 1. Communication:  
-	- TCP and UDP   
+	- TCP and UDP socket
 	- Voice communication between two Raspberry Pi  
 2. Security and Privacy  
 	- Diffie–Hellman key exchange  
@@ -17,18 +19,25 @@ Technique:
 	- ThingSpeak platform  
 	- Plotly platform  
 4. Parallel Processing  
-	- multi-threading  
+	- multi-threading using Java
 
-[Smart Car Park](Project/CarParkProject/Report.pdf)  [Last update: 01/05/18]  
-Technique:  
-1. Android Programming, interacting with database  
+[Smart Car Park](Project/CarParkProject/Report.pdf)  
+**Technique:**  
+1. Android Programming, interacting with MySQL database  
 2. LAMP(Linux, Apache, MySQL, PHP) server on Raspberry Pi  
-3. Arduino controls LCD display, card reader and servo motor  
+3. Arduino controls LED lamp, LCD display, card reader and servo motor  
 
 [Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](Project/TempHumid/TempHumid.md)  
+**Technique:**  
+1. Use of temperature and humidity sensor  
+2. MySQL in RaspberryPi  
 [Connecting Rpi and Arduino using HC-05 Bluetooth module](Project/HC05_Arduino_Rpi.md)  
-[XOR problem - Neural Nnetwork in VHDL](Project/Neural Network VHDL/VLSI.pdf)
-
+**Technique:**  
+1. Bluetooth communication  
+[XOR problem - Neural Nnetwork in VHDL](Project/NeuralNetworkVHDL/VLSI.pdf)  
+**Technique:**  
+1. VHDL  
+2. Neural Network Algorithm  
 
 ## Knowledge
 

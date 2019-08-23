@@ -119,12 +119,6 @@ Polymorphic reference is a variable that can refer to different types of objects
 widening/narrowing conversion  
 widening: assign child to parent reference  
 narrowing: assig  parent to child reference  
-利用父類別的型態  
-接受子類別的物件  
-做相同的動作  
-引發不同的行為  
-將相同的訊息傳遞給不同的物件，進而引發出不同的行為反應  
-可使程式的執行不在於編譯時期決定，而延後到執行期間才動態決定呼叫何者。  
 
 ((Bird)animalList[0]).fly();  
 ((Dog)animalList[0]).bark();  
