@@ -31,13 +31,16 @@ Research findings:
 **Technique:**  
 1. Use of temperature and humidity sensor  
 2. MySQL in RaspberryPi  
+
 [Connecting Rpi and Arduino using HC-05 Bluetooth module](Project/HC05_Arduino_Rpi.md)  
 **Technique:**  
 1. Bluetooth communication  
+
 [XOR problem - Neural Nnetwork in VHDL](Project/NeuralNetworkVHDL/VLSI.pdf)  
 **Technique:**  
 1. VHDL  
 2. Neural Network Algorithm  
+
 
 ## Knowledge
 
