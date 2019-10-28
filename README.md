@@ -1,13 +1,27 @@
 # Tony Ho 's website
 Passionate about IoT technology. 
 
+## Article:
+
+### Create API
+- Testing API with 
+- Solving CORS
+- Optimizing API performance using Gunicorn
+- Using Redis as in-ram key-value database for caching
+- Create API with Flask
+
+### Create React Native apps
+
+### GitHub Tutorial
 
 ## Project
-[Channel Access Control Protocol of LoRaWAN]()  
-Research findings:  
+### 1. Final Year Project  
+### Channel Access Control Protocol of LoRaWAN  
+[Report](Project/FYP/FYP_report.pdf)  
+[Technical Paper](Project/FYP/Technical_Paper.pdf)  
+[Poster](Project/FYP/Poster.jpg)  
 
-
-[Bus Safety System](Project/BusSafetySystem/Bus.pdf)   
+### 2. [Bus Safety System](Project/BusSafetySystem/Bus.pdf)   
 **Technique:**  
 1. Communication:  
 	- TCP and UDP socket
@@ -21,26 +35,25 @@ Research findings:
 4. Parallel Processing  
 	- multi-threading using Java
 
-[Smart Car Park](Project/CarParkProject/Report.pdf)  
+### 3. [Smart Car Park](Project/CarParkProject/Report.pdf)  
 **Technique:**  
 1. Android Programming, interacting with MySQL database  
 2. LAMP(Linux, Apache, MySQL, PHP) server on Raspberry Pi  
 3. Arduino controls LED lamp, LCD display, card reader and servo motor  
 
-[Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](Project/TempHumid/TempHumid.md)  
+### 4. [Measure Temperature and Humidity by Arduino, then store in MySQL in Raspberry Pi](Project/TempHumid/TempHumid.md)  
 **Technique:**  
 1. Use of temperature and humidity sensor  
 2. MySQL in RaspberryPi  
 
-[Connecting Rpi and Arduino using HC-05 Bluetooth module](Project/HC05_Arduino_Rpi.md)  
-**Technique:**  
-1. Bluetooth communication  
-
-[XOR problem - Neural Nnetwork in VHDL](Project/NeuralNetworkVHDL/VLSI.pdf)  
+### 5. [XOR problem - Neural Nnetwork in VHDL](Project/NeuralNetworkVHDL/VLSI.pdf)  
 **Technique:**  
 1. VHDL  
 2. Neural Network Algorithm  
 
+### 6. [Connecting Rpi and Arduino using HC-05 Bluetooth module](Project/HC05_Arduino_Rpi.md)  
+**Technique:**  
+1. Bluetooth communication  
 
 ## Knowledge
 
