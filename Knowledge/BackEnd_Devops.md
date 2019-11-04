@@ -228,3 +228,43 @@ Run both the server and client, and navigate to <http://localhost:3000/> done
       })
       .then(res => this.setState({ apiResponse: res }));
   }
+
+# Docker
+
+Useful Docker command
+
+1. Build  
+```sudo docker build -t xxx```  
+2. Run  
+```sudo docker run -d -p 20001:80 --name xxx nginx```  
+3. Check running docker  
+```sudo docker ps```  
+4. Check image built  
+```sudo docker images```  
+5. Check docker log file  
+```sudo docker logs -f xxx```  
+6. Delete all containers including volumes use  
+```sudo docker rm -vf $(sudo docker ps -a -q)```  
+7. Delete all images  
+```sudo docker rmi -f $(sudo docker images -a -q)```  
+8. Docker compose  
+```sudo docker-compose up```  
+9. Create common network in docker-compose  
+In docker-compose.yml, add  
+
+```
+network:
+  networkName
+```
+
+Then in the services, add  
+
+```
+networks:
+  - "networkName"
+```
+
+10. API with redis  
+Use ```r = redis.Redis(host="redis_service", port=6379, db=1)``` instead
+
+11. expose in dockerfile only a declaration only, won't have any effect
